@@ -1,0 +1,29 @@
+{
+  "name": "portfolio2.0",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Nouman Sharif",
+  "license": "ISC",
+  "description": "A professional and upgrated version of my portfolio aka my personal website to show-case my skills and expriences.",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "ejs-mate": "^4.0.0",
+    "express": "^4.21.2",
+    "gsap": "^3.12.7",
+    "joi": "^17.13.3",
+    "lenis": "^1.1.20",
+    "locomotive-scroll": "^5.0.0-beta.21",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.9.5",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^8.0.0"
+  }
+}
