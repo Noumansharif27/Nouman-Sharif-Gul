@@ -1,3 +1,7 @@
+if (process.env.NODE_ENV !== "production") {
+  require("dotenv").config();
+}
+
 const express = require("express");
 const mongoose = require("mongoose");
 const path = require("path");
@@ -6,9 +10,9 @@ const ejsMate = require("ejs-mate");
 const flash = require("connect-flash");
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const sessionOptions = {
-  secret: "mytopsecreatcode",
+  secret: process.env.SESSION_SECRET,
   resave: false,
   saveUninitialized: true,
   cookie: {
